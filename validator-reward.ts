@@ -1,6 +1,6 @@
 import { ISubmittableResult } from "@polkadot/types/types";
 import { H256 } from "@polkadot/types/interfaces/runtime";
-import { getKeyringFromSeed, initialize, disconnect } from "avail-js-sdk";
+import { getKeyringFromSeed, initialize, disconnect } from "@reef-defi/api";
 import { SubmittableExtrinsic } from '@polkadot/api/types';
 import config from "./config";
 import readline from "readline";
